@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volontariato | Giulia Nebuloni</title>
+  <meta name="description" content="Esperienze di volontariato di Giulia Nebuloni: campi di volontariato internazionale con Lunaria APS in Francia.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">Giulia Nebuloni</a>
+      
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+        <li><a href="esperienze.html" data-i18n="nav_exp">Esperienze</a></li>
+        <li><a href="praga.html" data-i18n="nav_prague">Praga</a></li>
+        <li><a href="volontariato.html" class="active" data-i18n="nav_volunteering">Volontariato</a></li>
+        <li><a href="progetti-ai.html" data-i18n="nav_ai">Progetti AI</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Selettore lingua">
+          <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="page-header">
+      <h1 data-i18n="vol_title">Attività di Volontariato</h1>
+      <p data-i18n="vol_subtitle">Impegno sociale, cooperazione internazionale e progetti di tutela del patrimonio storico e naturale.</p>
+    </div>
+
+    <div class="experience-list">
+      <article class="experience-card">
+        <div class="card-header">
+          <h2 class="card-title">LUNARIA – ASSOCIAZIONE DI PROMOZIONE SOCIALE</h2>
+          <span class="card-period">2014 – 2015</span>
+        </div>
+        <div class="card-meta">
+          <strong data-i18n="lunaria_role">Volontaria in campi di volontariato internazionali</strong> &bull; Francia
+        </div>
+        <div class="card-description">
+          <p data-i18n="lunaria_desc">
+            Partecipazione attiva a progetti sul campo dedicati alla ristrutturazione e al rinnovamento di edifici storici e alla cura e riqualificazione di aree verdi comunitarie.
+          </p>
+          <ul style="margin-top: 0.75rem;">
+            <li data-i18n="lunaria_point1">Cooperazione e lavoro di squadra in un team internazionale interculturale.</li>
+            <li data-i18n="lunaria_point2">Attività pratiche di manutenzione, conservazione e valorizzazione ambientale e architettonica.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <span>&copy; 2026 Giulia Nebuloni.</span>
+      <span data-i18n="footer_hosted">Sito statico sviluppato con Google Antigravity &bull; GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    window.PAGE_TITLE_KEY = 'vol_page_title';
+    window.TRANSLATIONS = {
+      it: {
+        vol_page_title: "Volontariato | Giulia Nebuloni",
+        nav_home: "Home",
+        nav_exp: "Esperienze",
+        nav_prague: "Praga",
+        nav_volunteering: "Volontariato",
+        nav_ai: "Progetti AI",
+        btn_cv: "CV (PDF)",
+        vol_title: "Attività di Volontariato",
+        vol_subtitle: "Impegno sociale, cooperazione internazionale e progetti di tutela del patrimonio storico e naturale.",
+        lunaria_role: "Volontaria in campi di volontariato internazionali",
+        lunaria_desc: "Partecipazione attiva a progetti sul campo dedicati alla ristrutturazione e al rinnovamento di edifici storici e alla cura e riqualificazione di aree verdi comunitarie.",
+        lunaria_point1: "Cooperazione e lavoro di squadra in un team internazionale interculturale.",
+        lunaria_point2: "Attività pratiche di manutenzione, conservazione e valorizzazione ambientale e architettonica.",
+        footer_hosted: "Sito statico sviluppato con Google Antigravity &bull; GitHub Pages"
+      },
+      en: {
+        vol_page_title: "Volunteering | Giulia Nebuloni",
+        nav_home: "Home",
+        nav_exp: "Work Experience",
+        nav_prague: "Prague",
+        nav_volunteering: "Volunteering",
+        nav_ai: "AI Projects",
+        btn_cv: "CV (PDF)",
+        vol_title: "Volunteering Activities",
+        vol_subtitle: "Social engagement, cross-border cooperation, and environmental and historic heritage preservation.",
+        lunaria_role: "Volunteer in International Workcamps",
+        lunaria_desc: "Active field participation in restoration projects focused on the renovation of historic buildings and the preservation of communal green areas.",
+        lunaria_point1: "Cross-cultural teamwork and cooperative problem solving in an international environment.",
+        lunaria_point2: "Hands-on conservation, environmental care, and architectural rehabilitation activities.",
+        footer_hosted: "Static website built with Google Antigravity &bull; GitHub Pages"
+      }
+    };
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
