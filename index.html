@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giulia Nebuloni | Portfolio & CV</title>
+  <meta name="description" content="Portfolio e percorso professionale di Giulia Nebuloni. Esperienze nel settore assicurativo, percorsi internazionali a Praga e progetti di intelligenza artificiale.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand">Giulia Nebuloni</a>
+      
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+        <li><a href="esperienze.html" data-i18n="nav_exp">Esperienze</a></li>
+        <li><a href="praga.html" data-i18n="nav_prague">Praga</a></li>
+        <li><a href="volontariato.html" data-i18n="nav_volunteering">Volontariato</a></li>
+        <li><a href="progetti-ai.html" data-i18n="nav_ai">Progetti AI</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="Selettore lingua">
+          <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="hero">
+      <div class="hero-avatar-wrapper">
+        <img src="assets/img/foto.jpg" alt="Giulia Nebuloni" class="hero-avatar">
+      </div>
+      <div class="hero-text">
+        <h1 data-i18n="hero_name">Giulia Nebuloni</h1>
+        <p class="subtitle" data-i18n="hero_title">Laurea Magistrale in Giurisprudenza &bull; Liquidatrice Sinistri</p>
+        <div class="meta-info">
+          <span>📍 <span data-i18n="hero_location">Milano, Italia</span></span>
+          <span>✉️ <a href="mailto:giulia.nebuloni@gmail.com">giulia.nebuloni@gmail.com</a></span>
+        </div>
+        <p class="hero-bio" data-i18n="hero_bio">
+          Profilo con solida formazione giuridica (Laurea Magistrale a ciclo unico in Giurisprudenza) ed esperienza professionale maturata nella gestione e liquidazione sinistri (Financial Lines, Ramo Vita, Sinistri Sanitari). Significativo percorso lavorativo e accademico internazionale svolto a Praga, con comprovate competenze di coordinamento, multilinguismo e attenzione al dettaglio.
+        </p>
+      </div>
+    </section>
+
+    <!-- Navigation Hub Cards -->
+    <section>
+      <h2 data-i18n="sections_title" style="font-size: 1.4rem; margin-bottom: 0.5rem;">Esplora il Portfolio</h2>
+      <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="sections_subtitle">Seleziona una sezione per approfondire le esperienze, i progetti e le attività svolte.</p>
+      
+      <div class="nav-grid">
+        <a href="esperienze.html" class="nav-card">
+          <div>
+            <h3 data-i18n="card_exp_title">Esperienze Assicurative</h3>
+            <p data-i18n="card_exp_desc">Ruoli professionali presso Liberty Specialty Markets, AXA Assicurazioni e My Assistance a Milano.</p>
+          </div>
+          <span class="arrow-link" data-i18n="card_link">Approfondisci &rarr;</span>
+        </a>
+
+        <a href="praga.html" class="nav-card">
+          <div>
+            <h3 data-i18n="card_prague_title">Esperienze a Praga</h3>
+            <p data-i18n="card_prague_desc">Attività lavorative, coordinamento amministrativo, catalog management e insegnamento nella Repubblica Ceca.</p>
+          </div>
+          <span class="arrow-link" data-i18n="card_link">Approfondisci &rarr;</span>
+        </a>
+
+        <a href="volontariato.html" class="nav-card">
+          <div>
+            <h3 data-i18n="card_vol_title">Attività di Volontariato</h3>
+            <p data-i18n="card_vol_desc">Esperienza internazionale sul campo con Lunaria APS per la riqualificazione e tutela di beni storici e verdi.</p>
+          </div>
+          <span class="arrow-link" data-i18n="card_link">Approfondisci &rarr;</span>
+        </a>
+
+        <a href="progetti-ai.html" class="nav-card">
+          <div>
+            <h3 data-i18n="card_ai_title">Progetti AI & Portfolio</h3>
+            <p data-i18n="card_ai_desc">Architettura tecnica del portfolio, processo di realizzazione con Google Antigravity e intelligenza artificiale assistita.</p>
+          </div>
+          <span class="arrow-link" data-i18n="card_link">Approfondisci &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Education & Skills Summary -->
+    <section class="info-section">
+      <h2 data-i18n="education_title">Formazione</h2>
+      <div class="experience-list">
+        <div class="experience-card">
+          <div class="card-header">
+            <span class="card-title" data-i18n="edu_1_title">Laurea Magistrale a ciclo unico in Giurisprudenza</span>
+            <span class="card-period">2022</span>
+          </div>
+          <div class="card-meta">Università degli Studi di Milano</div>
+        </div>
+
+        <div class="experience-card">
+          <div class="card-header">
+            <span class="card-title" data-i18n="edu_2_title">Programma Erasmus</span>
+            <span class="card-period">2019</span>
+          </div>
+          <div class="card-meta">Karlova Univerzita (Univerzita Karlova) – Praga</div>
+        </div>
+
+        <div class="experience-card">
+          <div class="card-header">
+            <span class="card-title" data-i18n="edu_3_title">Maturità Classica</span>
+            <span class="card-period">2016</span>
+          </div>
+          <div class="card-meta">Liceo Statale Galileo Galilei – Legnano</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2 data-i18n="skills_title">Competenze & Lingue</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+        <div>
+          <h3 style="font-size: 1.05rem; margin-bottom: 0.75rem;" data-i18n="skills_languages">Lingue</h3>
+          <div class="skills-tags">
+            <span class="tag" data-i18n="lang_it">Italiano: Madrelingua</span>
+            <span class="tag" data-i18n="lang_en">Inglese: C1</span>
+            <span class="tag" data-i18n="lang_cs">Ceco: B1</span>
+            <span class="tag" data-i18n="lang_es">Spagnolo: B1</span>
+          </div>
+        </div>
+        <div>
+          <h3 style="font-size: 1.05rem; margin-bottom: 0.75rem;" data-i18n="skills_tools">Strumenti Informatici</h3>
+          <div class="skills-tags">
+            <span class="tag">Microsoft Word</span>
+            <span class="tag">Microsoft Excel</span>
+            <span class="tag">Microsoft PowerPoint</span>
+            <span class="tag">Microsoft Outlook</span>
+            <span class="tag">Microsoft Teams</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <span>&copy; 2026 Giulia Nebuloni.</span>
+      <span data-i18n="footer_hosted">Sito statico sviluppato con Google Antigravity &bull; GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script>
+    window.PAGE_TITLE_KEY = 'home_page_title';
+    window.TRANSLATIONS = {
+      it: {
+        home_page_title: "Giulia Nebuloni | Portfolio & CV",
+        nav_home: "Home",
+        nav_exp: "Esperienze",
+        nav_prague: "Praga",
+        nav_volunteering: "Volontariato",
+        nav_ai: "Progetti AI",
+        btn_cv: "CV (PDF)",
+        hero_name: "Giulia Nebuloni",
+        hero_title: "Laurea Magistrale in Giurisprudenza &bull; Liquidatrice Sinistri",
+        hero_location: "Milano, Italia",
+        hero_bio: "Profilo con solida formazione giuridica (Laurea Magistrale a ciclo unico in Giurisprudenza) ed esperienza professionale maturata nella gestione e liquidazione sinistri (Financial Lines, Ramo Vita, Sinistri Sanitari). Significativo percorso lavorativo e accademico internazionale svolto a Praga, con comprovate competenze di coordinamento, multilinguismo e attenzione al dettaglio.",
+        sections_title: "Esplora il Portfolio",
+        sections_subtitle: "Seleziona una sezione per approfondire le esperienze, i progetti e le attività svolte.",
+        card_exp_title: "Esperienze Assicurative",
+        card_exp_desc: "Ruoli professionali presso Liberty Specialty Markets, AXA Assicurazioni e My Assistance a Milano.",
+        card_prague_title: "Esperienze a Praga",
+        card_prague_desc: "Attività lavorative, coordinamento amministrativo, catalog management e insegnamento nella Repubblica Ceca.",
+        card_vol_title: "Attività di Volontariato",
+        card_vol_desc: "Esperienza internazionale sul campo con Lunaria APS per la riqualificazione e tutela di beni storici e verdi.",
+        card_ai_title: "Progetti AI & Portfolio",
+        card_ai_desc: "Architettura tecnica del portfolio, processo di realizzazione con Google Antigravity e intelligenza artificiale assistita.",
+        card_link: "Approfondisci &rarr;",
+        education_title: "Formazione",
+        edu_1_title: "Laurea Magistrale a ciclo unico in Giurisprudenza",
+        edu_2_title: "Programma Erasmus",
+        edu_3_title: "Maturità Classica",
+        skills_title: "Competenze & Lingue",
+        skills_languages: "Lingue",
+        skills_tools: "Strumenti Informatici",
+        lang_it: "Italiano: Madrelingua",
+        lang_en: "Inglese: C1",
+        lang_cs: "Ceco: B1",
+        lang_es: "Spagnolo: B1",
+        footer_hosted: "Sito statico sviluppato con Google Antigravity &bull; GitHub Pages"
+      },
+      en: {
+        home_page_title: "Giulia Nebuloni | Portfolio & CV",
+        nav_home: "Home",
+        nav_exp: "Work Experience",
+        nav_prague: "Prague",
+        nav_volunteering: "Volunteering",
+        nav_ai: "AI Projects",
+        btn_cv: "CV (PDF)",
+        hero_name: "Giulia Nebuloni",
+        hero_title: "Master's Degree in Law &bull; Claims Specialist",
+        hero_location: "Milan, Italy",
+        hero_bio: "Professional profile with a solid legal background (Master's Degree in Law) and proven experience in claims assessment and settlement (Financial Lines, Life, Health Claims). Significant international work and academic track record in Prague, combining strong coordination abilities, multilingual fluency, and thorough attention to detail.",
+        sections_title: "Explore the Portfolio",
+        sections_subtitle: "Select a section to learn more about professional experiences, projects, and activities.",
+        card_exp_title: "Insurance Experience",
+        card_exp_desc: "Professional roles at Liberty Specialty Markets, AXA Assicurazioni, and My Assistance in Milan.",
+        card_prague_title: "Experiences in Prague",
+        card_prague_desc: "Professional roles, administrative live chat coordination, catalog management, and teaching in the Czech Republic.",
+        card_vol_title: "Volunteering Activities",
+        card_vol_desc: "International workcamp experience with Lunaria APS for historical heritage renovation and environmental preservation.",
+        card_ai_title: "AI Projects & Portfolio",
+        card_ai_desc: "Technical architecture of the portfolio, development lifecycle with Google Antigravity and AI-assisted engineering.",
+        card_link: "Read more &rarr;",
+        education_title: "Education",
+        edu_1_title: "Master's Degree in Law (Laurea Magistrale a ciclo unico)",
+        edu_2_title: "Erasmus Programme",
+        edu_3_title: "Classical High School Diploma (Maturità Classica)",
+        skills_title: "Skills & Languages",
+        skills_languages: "Languages",
+        skills_tools: "Productivity Tools",
+        lang_it: "Italian: Native",
+        lang_en: "English: C1",
+        lang_cs: "Czech: B1",
+        lang_es: "Spanish: B1",
+        footer_hosted: "Static website built with Google Antigravity &bull; GitHub Pages"
+      }
+    };
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
