@@ -30,3 +30,8 @@ Sito web professionale e bilingue (italiano e inglese) di Giulia Nebuloni.
 
 Non è richiesta alcuna compilazione o dipendenza esterna:
 1. Apri direttamente `index.html` con qualsiasi browser web moderno.
+
+## Licenza
+
+Questo progetto è distribuito sotto licenza [MIT](LICENSE).
+
