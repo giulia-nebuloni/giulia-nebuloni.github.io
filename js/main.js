@@ -48,17 +48,19 @@
       }
     });
 
-    // Update translatable attributes (e.g. aria-label, title)
+    // Update translatable attributes (e.g. aria-label, title, href, download)
     document.querySelectorAll('[data-i18n-attr]').forEach(function (el) {
-      var attrRule = el.getAttribute('data-i18n-attr'); // format: "attrName:key"
-      var parts = attrRule.split(':');
-      if (parts.length === 2) {
-        var attrName = parts[0];
-        var key = parts[1];
-        if (window.TRANSLATIONS && window.TRANSLATIONS[lang] && window.TRANSLATIONS[lang][key]) {
-          el.setAttribute(attrName, window.TRANSLATIONS[lang][key]);
+      var attrRules = el.getAttribute('data-i18n-attr').split(';');
+      attrRules.forEach(function (rule) {
+        var parts = rule.trim().split(':');
+        if (parts.length === 2) {
+          var attrName = parts[0].trim();
+          var key = parts[1].trim();
+          if (window.TRANSLATIONS && window.TRANSLATIONS[lang] && window.TRANSLATIONS[lang][key]) {
+            el.setAttribute(attrName, window.TRANSLATIONS[lang][key]);
+          }
         }
-      }
+      });
     });
 
     // Update page title if translation exists

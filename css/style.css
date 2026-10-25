@@ -137,11 +137,23 @@ header.site-header {
   font-weight: 600;
   border-radius: var(--radius);
   text-decoration: none !important;
-  transition: background-color 0.15s ease;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
 }
 
 .btn-cv:hover, .btn-cv:focus-visible {
   background-color: var(--accent-hover);
+}
+
+.btn-cv-ai {
+  background-color: transparent;
+  color: var(--accent) !important;
+  border: 1px solid var(--accent);
+}
+
+.btn-cv-ai:hover, .btn-cv-ai:focus-visible {
+  background-color: var(--accent);
+  color: #fff !important;
 }
 
 /* Mobile Nav Toggle */
