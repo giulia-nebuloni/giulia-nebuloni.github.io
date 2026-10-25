@@ -28,7 +28,8 @@
           <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
           <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
         </div>
-        <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
+        <a class="btn-cv" data-i18n="btn_cv" data-i18n-attr="href:cv_href;download:cv_filename">CV (PDF)</a>
+    <a class="btn-cv btn-cv-en" data-i18n="btn_cv_en" data-i18n-attr="href:cv_en_href;download:cv_en_filename">CV EN (PDF)</a>
         <a href="assets/docs/Cv AI ITA.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_ITA.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
       </div>
     </div>
@@ -47,8 +48,11 @@
           <span>📍 <span data-i18n="hero_location">Milano, Italia</span></span>
           <span>✉️ <a href="mailto:giulia.nebuloni@gmail.com">giulia.nebuloni@gmail.com</a></span>
         </div>
-        <p class="hero-bio" data-i18n="hero_bio">
+        <p class="hero-bio" data-i18n="hero_bio_p1">
           Profilo con solida formazione giuridica (Laurea Magistrale a ciclo unico in Giurisprudenza) ed esperienza professionale maturata nella gestione e liquidazione sinistri (Financial Lines, Ramo Vita, Sinistri Sanitari). Significativo percorso lavorativo e accademico internazionale svolto a Praga, con comprovate competenze di coordinamento, multilinguismo e attenzione al dettaglio.
+        </p>
+        <p class="hero-bio" data-i18n="hero_bio_p2" style="margin-top: 1rem;">
+          Il mio legame con Praga è nato con il trasferimento e la collaborazione con l’Università Karlova. Ho quindi vissuto a Praga per circa 6 anni, durante i quali ho allargato le mie competenze linguistiche lavorando in contesti internazionali, nei quali ho avuto l’opportunità di interagire e creare legami con persone di culture e consuetudini diverse: da questo percorso nasce la sezione dedicata a Praga all'interno del sito.
         </p>
       </div>
     </section>
@@ -152,7 +156,7 @@
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-content">
-      <span>&copy; 2026 Giulia Nebuloni.</span>
+      <span>&copy; 2026 Giulia Nebuloni. <a href="LICENSE" target="_blank">MIT License</a></span>
       <span data-i18n="footer_hosted">Sito statico sviluppato con Google Antigravity &bull; GitHub Pages</span>
     </div>
   </footer>
@@ -174,7 +178,8 @@
         hero_name: "Giulia Nebuloni",
         hero_title: "Laurea Magistrale in Giurisprudenza &bull; Liquidatrice Sinistri",
         hero_location: "Milano, Italia",
-        hero_bio: "Profilo con solida formazione giuridica (Laurea Magistrale a ciclo unico in Giurisprudenza) ed esperienza professionale maturata nella gestione e liquidazione sinistri (Financial Lines, Ramo Vita, Sinistri Sanitari). Significativo percorso lavorativo e accademico internazionale svolto a Praga, con comprovate competenze di coordinamento, multilinguismo e attenzione al dettaglio.",
+        hero_bio_p1: "Profilo con solida formazione giuridica (Laurea Magistrale a ciclo unico in Giurisprudenza) ed esperienza professionale maturata nella gestione e liquidazione sinistri (Financial Lines, Ramo Vita, Sinistri Sanitari). Significativo percorso lavorativo e accademico internazionale svolto a Praga, con comprovate competenze di coordinamento, multilinguismo e attenzione al dettaglio.",
+        hero_bio_p2: "Il mio legame con Praga è nato con il trasferimento e la collaborazione con l’Università Karlova. Ho quindi vissuto a Praga per circa 6 anni, durante i quali ho allargato le mie competenze linguistiche lavorando in contesti internazionali, nei quali ho avuto l’opportunità di interagire e creare legami con persone di culture e consuetudini diverse: da questo percorso nasce la sezione dedicata a Praga all'interno del sito.",
         sections_title: "Esplora il Portfolio",
         sections_subtitle: "Seleziona una sezione per approfondire le esperienze, i progetti e le attività svolte.",
         card_exp_title: "Esperienze Assicurative",
@@ -213,7 +218,8 @@
         hero_name: "Giulia Nebuloni",
         hero_title: "Master's Degree in Law &bull; Claims Specialist",
         hero_location: "Milan, Italy",
-        hero_bio: "Professional profile with a solid legal background (Master's Degree in Law) and proven experience in claims assessment and settlement (Financial Lines, Life, Health Claims). Significant international work and academic track record in Prague, combining strong coordination abilities, multilingual fluency, and thorough attention to detail.",
+        hero_bio_p1: "Professional profile with a solid legal background (Master's Degree in Law) and proven experience in claims assessment and settlement (Financial Lines, Life, Health Claims). Significant international work and academic track record in Prague, combining strong coordination abilities, multilingual fluency, and thorough attention to detail.",
+        hero_bio_p2: "My connection with Prague began when I moved there and collaborated with Charles University (Univerzita Karlova). I lived in Prague for about 6 years, during which I broadened my language skills by working in international environments where I had the opportunity to interact and build connections with people from diverse cultures and customs: this inspiring experience led to the dedicated Prague section on this website.",
         sections_title: "Explore the Portfolio",
         sections_subtitle: "Select a section to learn more about professional experiences, projects, and activities.",
         card_exp_title: "Insurance Experience",

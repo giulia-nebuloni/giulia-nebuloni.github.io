@@ -28,8 +28,10 @@
           <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
           <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
         </div>
-        <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
-        <a href="assets/docs/Cv AI ITA.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_ITA.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
+        <div class="cv-buttons">
+          <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
+          <a href="assets/docs/Cv AI ITA.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_ITA.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
+        </div>
       </div>
     </div>
   </header>
@@ -46,13 +48,15 @@
       <article class="experience-card">
         <div class="card-header">
           <h2 class="card-title">LIBERTY SPECIALTY MARKETS</h2>
-          <span class="card-period" data-i18n="liberty_period">Maggio 2026</span>
+          <span class="card-period" data-i18n="liberty_period">Maggio 2026 – Presente</span>
         </div>
         <div class="card-meta">
-          <strong data-i18n="liberty_role">Liquidatrice</strong> &bull; Milano
+          <strong data-i18n="liberty_role">Liquidatrice Sinistri – Financial Lines</strong> &bull; Milano
         </div>
         <div class="card-description">
-          <p data-i18n="liberty_desc">Attività di valutazione e liquidazione dei sinistri <strong>Financial Lines</strong>: gestione e analisi tecnica di polizze PI (<em>Professional Indemnity</em>) e D&amp;O (<em>Directors and Officers</em>).</p>
+          <p data-i18n="liberty_desc1">Gestione e liquidazione end-to-end dei sinistri rientranti nell’area <strong>Financial Lines</strong>, con focus specialistico su polizze PI (<em>Professional Indemnity</em>) e D&amp;O (<em>Directors and Officers</em>): analisi approfondita dell'operatività di polizza, valutazione delle condizioni contrattuali, accertamento delle responsabilità e quantificazione del danno per la definizione economica.</p>
+          <p data-i18n="liberty_desc2">Interfaccia continuativa con broker, periti, fiduciari legali e assicurati per una gestione tempestiva del contenzioso e la negoziazione di transazioni stragiudiziali.</p>
+          <p data-i18n="liberty_ai_champ" style="margin-top: 0.6rem; padding-left: 0.75rem; border-left: 2px solid var(--accent); color: var(--text-main);"><strong>Progetto AI Champions:</strong> Membro attivo dell'iniziativa interna per supportare e facilitare la transizione dell'ufficio verso l'adozione delle tecnologie di intelligenza artificiale applicate alla gestione sinistri.</p>
         </div>
       </article>
 
@@ -63,10 +67,11 @@
           <span class="card-period">2025 – 2026</span>
         </div>
         <div class="card-meta">
-          <strong data-i18n="axa_role">Liquidatrice</strong> &bull; Milano
+          <strong data-i18n="axa_role">Liquidatrice Sinistri – Ramo Vita</strong> &bull; Milano
         </div>
         <div class="card-description">
-          <p data-i18n="axa_desc">Attività di valutazione, perizia amministrativa e liquidazione dei sinistri ramo vita.</p>
+          <p data-i18n="axa_desc1">Istruttoria, valutazione contrattuale e liquidazione delle richieste di indennizzo per le polizze del <strong>Ramo Vita</strong>.</p>
+          <p data-i18n="axa_desc2">Verifica documentale probatoria, accertamento rigoroso delle cause contrattuali e determinazione puntuale dei capitali assicurati e dei beneficiari aventi diritto, garantendo piena conformità normativa e di compliance.</p>
         </div>
       </article>
 
@@ -77,11 +82,12 @@
           <span class="card-period">2024</span>
         </div>
         <div class="card-meta">
-          <strong data-i18n="my_role">Liquidatrice</strong> &bull; Milano
+          <strong data-i18n="my_role">Liquidatrice Sinistri Sanitari – Allianz Health</strong> &bull; Milano
         </div>
         <div class="card-description">
-          <p data-i18n="my_context" style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Società di servizi operante nella gestione dei sinistri sanitari.</p>
-          <p data-i18n="my_desc">Attività di consulenza e liquidazione dei sinistri sanitari di Allianz Health.</p>
+          <p data-i18n="my_context" style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Società di servizi specializzata nella gestione e liquidazione dei sinistri sanitari per primarie compagnie assicurative.</p>
+          <p data-i18n="my_desc1">Gestione dell’attività di consulenza specialistica e liquidazione dei rimborsi spese mediche e sinistri sanitari in regime di convenzione per conto di <strong>Allianz Health</strong>.</p>
+          <p data-i18n="my_desc2">Analisi tecnica e congruità dei tariffari e delle prestazioni mediche, verifica della copertura contrattuale, calcolo delle franchigie ed elaborazione dei rimborsi.</p>
         </div>
       </article>
     </div>
@@ -111,14 +117,18 @@
         cv_ai_filename: "Giulia_Nebuloni_CV_AI_ITA.pdf",
         page_title: "Esperienze Professionali",
         page_subtitle: "Percorso lavorativo e ruoli operativi nel settore assicurativo (Liberty Specialty Markets, AXA Assicurazioni, My Assistance).",
-        liberty_period: "Maggio 2026",
-        liberty_role: "Liquidatrice",
-        liberty_desc: "Attività di valutazione e liquidazione dei sinistri <strong>Financial Lines</strong>: gestione e analisi tecnica di polizze PI (<em>Professional Indemnity</em>) e D&O (<em>Directors and Officers</em>).",
-        axa_role: "Liquidatrice",
-        axa_desc: "Attività di valutazione, perizia amministrativa e liquidazione dei sinistri ramo vita.",
-        my_role: "Liquidatrice",
-        my_context: "Società di servizi operante nella gestione dei sinistri sanitari.",
-        my_desc: "Attività di consulenza e liquidazione dei sinistri sanitari di Allianz Health.",
+        liberty_period: "Maggio 2026 – Presente",
+        liberty_role: "Liquidatrice Sinistri – Financial Lines",
+        liberty_desc1: "Gestione e liquidazione end-to-end dei sinistri rientranti nell’area <strong>Financial Lines</strong>, con focus specialistico su polizze PI (<em>Professional Indemnity</em>) e D&O (<em>Directors and Officers</em>): analisi approfondita dell'operatività di polizza, valutazione delle condizioni contrattuali, accertamento delle responsabilità e quantificazione del danno per la definizione economica.",
+        liberty_desc2: "Interfaccia continuativa con broker, periti, fiduciari legali e assicurati per una gestione tempestiva del contenzioso e la negoziazione di transazioni stragiudiziali.",
+        liberty_ai_champ: "<strong>Progetto AI Champions:</strong> Membro attivo dell'iniziativa interna per supportare e facilitare la transizione dell'ufficio verso l'adozione delle tecnologie di intelligenza artificiale applicate alla gestione sinistri.",
+        axa_role: "Liquidatrice Sinistri – Ramo Vita",
+        axa_desc1: "Istruttoria, valutazione contrattuale e liquidazione delle richieste di indennizzo per le polizze del <strong>Ramo Vita</strong>.",
+        axa_desc2: "Verifica documentale probatoria, accertamento rigoroso delle cause contrattuali e determinazione puntuale dei capitali assicurati e dei beneficiari aventi diritto, garantendo piena conformità normativa e di compliance.",
+        my_role: "Liquidatrice Sinistri Sanitari – Allianz Health",
+        my_context: "Società di servizi specializzata nella gestione e liquidazione dei sinistri sanitari per primarie compagnie assicurative.",
+        my_desc1: "Gestione dell’attività di consulenza specialistica e liquidazione dei rimborsi spese mediche e sinistri sanitari in regime di convenzione per conto di <strong>Allianz Health</strong>.",
+        my_desc2: "Analisi tecnica e congruità dei tariffari e delle prestazioni mediche, verifica della copertura contrattuale, calcolo delle franchigie ed elaborazione dei rimborsi.",
         footer_hosted: "Sito statico sviluppato con Google Antigravity &bull; GitHub Pages"
       },
       en: {
@@ -134,14 +144,18 @@
         cv_ai_filename: "Giulia_Nebuloni_CV_AI_ENG.pdf",
         page_title: "Professional Experience",
         page_subtitle: "Career path and insurance claims assessment roles (Liberty Specialty Markets, AXA Assicurazioni, My Assistance).",
-        liberty_period: "May 2026",
-        liberty_role: "Claims Specialist",
-        liberty_desc: "Assessment and settlement of <strong>Financial Lines</strong> claims: technical review and claims handling for PI (<em>Professional Indemnity</em>) and D&O (<em>Directors and Officers</em>) policies.",
-        axa_role: "Claims Specialist",
-        axa_desc: "Assessment, case review, and claims settlement in life insurance (ramo vita).",
-        my_role: "Claims Specialist",
-        my_context: "Services company operating in health claims management.",
-        my_desc: "Consulting and settlement activities for Allianz Health insurance claims.",
+        liberty_period: "May 2026 – Present",
+        liberty_role: "Claims Adjuster – Financial Lines",
+        liberty_desc1: "End-to-end investigation, coverage evaluation, and settlement of complex <strong>Financial Lines</strong> claims, specifically Professional Indemnity (PI) and Directors & Officers (D&O) policies: detailed legal and technical policy reviews, liability assessment, and quantum evaluation.",
+        liberty_desc2: "Active collaboration with insurance brokers, external legal counsels, loss adjusters, and policyholders for dispute resolution and out-of-court settlements.",
+        liberty_ai_champ: "<strong>AI Champions Project:</strong> Active member of the internal department initiative to support and drive AI adoption across insurance claims workflows.",
+        axa_role: "Claims Adjuster – Life Insurance",
+        axa_desc1: "Investigation, contractual assessment, and claims settlement across <strong>Life Insurance</strong> policies.",
+        axa_desc2: "Evaluation of evidentiary documentation, validation of claim legitimacy, determination of indemnities, and identification of rightful beneficiaries in strict adherence to compliance and regulatory frameworks.",
+        my_role: "Health Claims Specialist – Allianz Health",
+        my_context: "Services company specialized in third-party health insurance claims administration.",
+        my_desc1: "Specialized medical claims advisory, verification, and settlement of reimbursement requests under network agreements on behalf of <strong>Allianz Health</strong>.",
+        my_desc2: "Technical review and tariff assessment of medical procedures, deductible calculation, and coverage verification.",
         footer_hosted: "Static website built with Google Antigravity &bull; GitHub Pages"
       }
     };
