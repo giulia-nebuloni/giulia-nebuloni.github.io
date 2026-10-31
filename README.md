@@ -1,37 +1,42 @@
-# Giulia Nebuloni - Portfolio & Personal Website
+# Giulia Nebuloni - Portfolio & Sito Personale
 
-Sito web professionale e bilingue (italiano e inglese) di Giulia Nebuloni.
+Sito personale bilingue (italiano e inglese) di Giulia Nebuloni, con percorso professionale, esperienze a Praga, volontariato e progetti AI.
 
-- **URL Pubblico:** [https://giulianebuloni.github.io/](https://giulianebuloni.github.io/)
-- **Repository GitHub:** [https://github.com/giulianebuloni/giulia-nebuloni.github.io](https://github.com/giulianebuloni/giulia-nebuloni.github.io)
+- **Sito:** [https://giulia-nebuloni.github.io/](https://giulia-nebuloni.github.io/)
+- **Repository:** [https://github.com/giulia-nebuloni/giulia-nebuloni.github.io](https://github.com/giulia-nebuloni/giulia-nebuloni.github.io)
 
-## Struttura del Progetto
+## Struttura del progetto
 
 ```
 .
-├── 404.html                # Gestione pagina non trovata per GitHub Pages
+├── 404.html                # Pagina non trovata (GitHub Pages)
 ├── assets/
 │   ├── docs/
-│   │   └── cv.pdf          # File PDF del Curriculum Vitae per il download
+│   │   ├── cv-it.pdf       # CV in italiano
+│   │   ├── cv-en.pdf       # CV in inglese
+│   │   ├── cv-ai-it.pdf    # CV ottimizzato AI in italiano
+│   │   └── cv-ai-en.pdf    # CV ottimizzato AI in inglese
 │   └── img/
 │       └── foto.jpg        # Fototessera personale
 ├── css/
-│   └── style.css           # Fogli di stile responsive e minimalisti
-├── esperienze.html         # Esperienze assicurative (Liberty, AXA, My Assistance)
-├── index.html              # Homepage bilingue, profilo e navigazione
+│   └── style.css           # Fogli di stile responsive
+├── esperienze.html         # Esperienze professionali
+├── index.html              # Home page bilingue
 ├── js/
-│   └── main.js             # Gestore selettore lingua e menu mobile
-├── praga.html              # Esperienze professionali a Praga (Arden, FAVI, ecc.)
-├── progetti-ai.html        # Documentazione tecnica del progetto e strumenti AI
-└── volontariato.html       # Esperienze di volontariato (Lunaria APS)
+│   └── main.js             # Selettore lingua e menu mobile
+├── LICENSE                 # Licenza MIT (solo codice)
+├── praga.html              # Esperienze a Praga
+├── progetti-ai.html        # Progetti AI e note sul sito
+├── README.md               # Questo file
+└── volontariato.html       # Volontariato
 ```
 
-## Esecuzione in Locale
+## Esecuzione in locale
 
-Non è richiesta alcuna compilazione o dipendenza esterna:
-1. Apri direttamente `index.html` con qualsiasi browser web moderno.
+Non serve installare nulla: apri `index.html` con un browser.
 
 ## Licenza
 
-Questo progetto è distribuito sotto licenza [MIT](LICENSE).
+Il codice (HTML, CSS, JavaScript) è distribuito con licenza [MIT](LICENSE).
 
+Testi, fotografia e curriculum sono © Giulia Nebuloni, tutti i diritti riservati, e NON sono coperti dalla licenza MIT.
