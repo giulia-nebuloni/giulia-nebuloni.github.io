@@ -28,8 +28,10 @@
           <button type="button" class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
           <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
         </div>
-        <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
-        <a href="assets/docs/cv-ai-it.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_ITA.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
+        <div class="cv-buttons">
+          <a href="assets/docs/cv-it.pdf" class="btn-cv" download="Giulia_Nebuloni_CV_IT.pdf" data-i18n="btn_cv" data-i18n-attr="href:cv_href;download:cv_filename">CV (PDF)</a>
+          <a href="assets/docs/cv-ai-it.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_IT.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
+        </div>
       </div>
     </div>
   </header>
@@ -113,7 +115,7 @@
             <span class="card-title" data-i18n="edu_2_title">Programma Erasmus</span>
             <span class="card-period">2019</span>
           </div>
-          <div class="card-meta">Karlova Univerzita (Univerzita Karlova) – Praga</div>
+          <div class="card-meta" data-i18n="edu_2_meta">Univerzita Karlova (Università Carlo IV) – Praga</div>
         </div>
 
         <div class="experience-card">
@@ -171,9 +173,11 @@
         nav_volunteering: "Volontariato",
         nav_ai: "Progetti AI",
         btn_cv: "CV (PDF)",
+        cv_href: "assets/docs/cv-it.pdf",
+        cv_filename: "Giulia_Nebuloni_CV_IT.pdf",
         btn_cv_ai: "CV Ottimizzato AI",
         cv_ai_href: "assets/docs/cv-ai-it.pdf",
-        cv_ai_filename: "Giulia_Nebuloni_CV_AI_ITA.pdf",
+        cv_ai_filename: "Giulia_Nebuloni_CV_AI_IT.pdf",
         hero_name: "Giulia Nebuloni",
         hero_title: "Laurea Magistrale in Giurisprudenza &bull; Liquidatrice Sinistri",
         hero_location: "Milano, Italia",
@@ -193,6 +197,7 @@
         education_title: "Formazione",
         edu_1_title: "Laurea Magistrale a ciclo unico in Giurisprudenza",
         edu_2_title: "Programma Erasmus",
+        edu_2_meta: "Univerzita Karlova (Università Carlo IV) – Praga",
         edu_3_title: "Maturità Classica",
         skills_title: "Competenze & Lingue",
         skills_languages: "Lingue",
@@ -211,9 +216,11 @@
         nav_volunteering: "Volunteering",
         nav_ai: "AI Projects",
         btn_cv: "CV (PDF)",
+        cv_href: "assets/docs/cv-en.pdf",
+        cv_filename: "Giulia_Nebuloni_CV_EN.pdf",
         btn_cv_ai: "AI-Optimized CV",
         cv_ai_href: "assets/docs/cv-ai-en.pdf",
-        cv_ai_filename: "Giulia_Nebuloni_CV_AI_ENG.pdf",
+        cv_ai_filename: "Giulia_Nebuloni_CV_AI_EN.pdf",
         hero_name: "Giulia Nebuloni",
         hero_title: "Master's Degree in Law &bull; Claims Specialist",
         hero_location: "Milan, Italy",
@@ -233,6 +240,7 @@
         education_title: "Education",
         edu_1_title: "Master's Degree in Law (Laurea Magistrale a ciclo unico)",
         edu_2_title: "Erasmus Programme",
+        edu_2_meta: "Charles University (Univerzita Karlova) – Prague",
         edu_3_title: "Classical High School Diploma (Maturità Classica)",
         skills_title: "Skills & Languages",
         skills_languages: "Languages",
