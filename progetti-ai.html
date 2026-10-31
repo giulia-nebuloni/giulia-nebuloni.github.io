@@ -12,7 +12,7 @@
   <header class="site-header">
     <div class="nav-container">
       <a href="index.html" class="brand">Giulia Nebuloni</a>
-      
+
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
 
       <ul class="nav-links">
@@ -29,8 +29,8 @@
           <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
         </div>
         <div class="cv-buttons">
-          <a href="assets/docs/cv.pdf" class="btn-cv" download="Giulia_Nebuloni_CV.pdf" data-i18n="btn_cv">CV (PDF)</a>
-          <a href="assets/docs/cv-ai-it.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_ITA.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
+          <a href="assets/docs/cv-it.pdf" class="btn-cv" download="Giulia_Nebuloni_CV_IT.pdf" data-i18n="btn_cv" data-i18n-attr="href:cv_href;download:cv_filename">CV (PDF)</a>
+          <a href="assets/docs/cv-ai-it.pdf" class="btn-cv btn-cv-ai" download="Giulia_Nebuloni_CV_AI_IT.pdf" data-i18n="btn_cv_ai" data-i18n-attr="href:cv_ai_href;download:cv_ai_filename">CV Ottimizzato AI</a>
         </div>
       </div>
     </div>
@@ -54,55 +54,44 @@
         </div>
         <div class="card-description">
           <p data-i18n="proj_p1">
-            Questo portfolio è stato progettato e implementato come progetto dimostrativo di collaborazione uomo-macchina. Il sito presenta la documentazione professionale, il percorso assicurativo, le esperienze a Praga e il volontariato con un'architettura statica, pulita, bilingue e priva di dipendenze esterne.
+            Questo sito è stato realizzato e viene mantenuto con l'intelligenza artificiale: contenuti, traduzioni e codice nascono dal lavoro con agenti AI. Il modello usato è prevalentemente Gemini 3.8 Flash, all'interno di Google Antigravity; in futuro potranno essere usati anche altri modelli.
           </p>
 
           <div class="spec-box">
             <div class="spec-item">
-              <span class="spec-label" data-i18n="label_objective">Obiettivo</span>
-              <span class="spec-val" data-i18n="val_objective">Creare un portfolio bilingue (IT/EN) veloce, accessibile, manutenibile e ospitato a costo zero su GitHub Pages.</span>
+              <span class="spec-label" data-i18n="label_env">Ambiente di sviluppo</span>
+              <span class="spec-val" data-i18n="val_env">Google Antigravity (IDE con agenti AI)</span>
             </div>
 
             <div class="spec-item">
-              <span class="spec-label" data-i18n="label_arch">Architettura &amp; Tecnologie</span>
-              <span class="spec-val" data-i18n="val_arch">HTML5 semantico, CSS3 modulare e responsive, JavaScript nativo (vanilla JS) per la localizzazione client-side istantanea, Git per il versionamento del codice.</span>
+              <span class="spec-label" data-i18n="label_model">Modello AI</span>
+              <span class="spec-val" data-i18n="val_model">Gemini 3.8 Flash (prevalentemente); in futuro anche altri modelli.</span>
             </div>
 
             <div class="spec-item">
-              <span class="spec-label" data-i18n="label_env">Ambiente di Sviluppo</span>
-              <span class="spec-val">Google Antigravity (ambiente di sviluppo e coordinamento agentico).</span>
+              <span class="spec-label" data-i18n="label_ai_use">Cosa è fatto con l'AI</span>
+              <span class="spec-val" data-i18n="val_ai_use">Creazione e aggiornamento dei contenuti, traduzione IT/EN, scrittura del codice, controlli di coerenza. Anche il CV ottimizzato AI è generato con Gemini in Antigravity, a partire da un template LaTeX.</span>
             </div>
 
             <div class="spec-item">
-              <span class="spec-label" data-i18n="label_model">Modello AI Utilizzato nello Sviluppo</span>
-              <span class="spec-val" data-i18n="val_model">Gemini 3.8 Flash (impiegato per l'analisi documentale del CV, la strutturazione dei contenuti bilingui, la redazione del codice frontend e la verifica di coerenza).</span>
-            </div>
-
-            <div class="spec-item">
-              <span class="spec-label" data-i18n="label_prod_ai">Modelli AI in Produzione</span>
-              <span class="spec-val" data-i18n="val_prod_ai"><strong>Nessuno:</strong> Il sito è un'applicazione web statica pura in produzione. L'intelligenza artificiale è stata impiegata esclusivamente durante la fase di progettazione, redazione dei contenuti e programmazione del codice sorgente.</span>
+              <span class="spec-label" data-i18n="label_tech">Tecnologia</span>
+              <span class="spec-val" data-i18n="val_tech">HTML, CSS e JavaScript semplici, pubblicati su GitHub Pages.</span>
             </div>
 
             <div class="spec-item">
               <span class="spec-label" data-i18n="label_repo">Repository GitHub</span>
-              <span class="spec-val"><a href="https://github.com/giulianebuloni/giulia-nebuloni.github.io" target="_blank" rel="noopener">giulianebuloni/giulia-nebuloni.github.io</a></span>
-            </div>
-
-            <div class="spec-item">
-              <span class="spec-label" data-i18n="label_live">URL Sito Pubblicato</span>
-              <span class="spec-val"><a href="https://giulianebuloni.github.io/" target="_blank" rel="noopener">https://giulianebuloni.github.io/</a></span>
+              <span class="spec-val"><a href="https://github.com/giulia-nebuloni/giulia-nebuloni.github.io" target="_blank" rel="noopener" data-i18n="val_repo">giulia-nebuloni/giulia-nebuloni.github.io</a></span>
             </div>
           </div>
+        </div>
+      </article>
 
-          <h3 style="font-size: 1.1rem; margin-top: 1.5rem; margin-bottom: 0.5rem;" data-i18n="h3_local">Istruzioni per l'esecuzione e ricostruzione locale</h3>
-          <p data-i18n="p_local_desc">Non sono necessari package manager o build step complicati. Per testare o eseguire il progetto in locale:</p>
-          
-          <pre class="code-block"><code># 1. Clona la repository o accedi alla cartella
-git clone https://github.com/giulianebuloni/giulia-nebuloni.github.io.git
-cd giulia-nebuloni.github.io
-
-# 2. Apri direttamente index.html con un qualsiasi browser
-open index.html</code></pre>
+      <article class="experience-card">
+        <div class="card-header">
+          <h2 class="card-title" data-i18n="more_title">Altri progetti AI</h2>
+        </div>
+        <div class="card-description">
+          <p data-i18n="more_p">In arrivo: qui verranno aggiunti i prossimi progetti realizzati con agenti AI.</p>
         </div>
       </article>
     </div>
@@ -127,27 +116,28 @@ open index.html</code></pre>
         nav_volunteering: "Volontariato",
         nav_ai: "Progetti AI",
         btn_cv: "CV (PDF)",
+        cv_href: "assets/docs/cv-it.pdf",
+        cv_filename: "Giulia_Nebuloni_CV_IT.pdf",
         btn_cv_ai: "CV Ottimizzato AI",
         cv_ai_href: "assets/docs/cv-ai-it.pdf",
-        cv_ai_filename: "Giulia_Nebuloni_CV_AI_ITA.pdf",
+        cv_ai_filename: "Giulia_Nebuloni_CV_AI_IT.pdf",
         ai_page_title: "Progetti di Intelligenza Artificiale",
         ai_page_subtitle: "Trasparenza tecnica, metodologie di sviluppo assistito da intelligenza artificiale e documentazione del progetto portfolio.",
         proj_title: "Sito Web & Portfolio Personale Bilingue",
         proj_role: "Sviluppo assistito da AI con Google Antigravity",
-        proj_p1: "Questo portfolio è stato progettato e implementato come progetto dimostrativo di collaborazione uomo-macchina. Il sito presenta la documentazione professionale, il percorso assicurativo, le esperienze a Praga e il volontariato con un'architettura statica, pulita, bilingue e priva di dipendenze esterne.",
-        label_objective: "Obiettivo",
-        val_objective: "Creare un portfolio bilingue (IT/EN) veloce, accessibile, manutenibile e ospitato a costo zero su GitHub Pages.",
-        label_arch: "Architettura & Tecnologie",
-        val_arch: "HTML5 semantico, CSS3 modulare e responsive, JavaScript nativo (vanilla JS) per la localizzazione client-side istantanea, Git per il versionamento del codice.",
-        label_env: "Ambiente di Sviluppo",
-        label_model: "Modello AI Utilizzato nello Sviluppo",
-        val_model: "Gemini 3.8 Flash (impiegato per l'analisi documentale del CV, la strutturazione dei contenuti bilingui, la redazione del codice frontend e la verifica di coerenza).",
-        label_prod_ai: "Modelli AI in Produzione",
-        val_prod_ai: "<strong>Nessuno:</strong> Il sito è un'applicazione web statica pura in produzione. L'intelligenza artificiale è stata impiegata esclusivamente durante la fase di progettazione, redazione dei contenuti e programmazione del codice sorgente.",
+        proj_p1: "Questo sito è stato realizzato e viene mantenuto con l'intelligenza artificiale: contenuti, traduzioni e codice nascono dal lavoro con agenti AI. Il modello usato è prevalentemente Gemini 3.8 Flash, all'interno di Google Antigravity; in futuro potranno essere usati anche altri modelli.",
+        label_env: "Ambiente di sviluppo",
+        val_env: "Google Antigravity (IDE con agenti AI)",
+        label_model: "Modello AI",
+        val_model: "Gemini 3.8 Flash (prevalentemente); in futuro anche altri modelli.",
+        label_ai_use: "Cosa è fatto con l'AI",
+        val_ai_use: "Creazione e aggiornamento dei contenuti, traduzione IT/EN, scrittura del codice, controlli di coerenza. Anche il CV ottimizzato AI è generato con Gemini in Antigravity, a partire da un template LaTeX.",
+        label_tech: "Tecnologia",
+        val_tech: "HTML, CSS e JavaScript semplici, pubblicati su GitHub Pages.",
         label_repo: "Repository GitHub",
-        label_live: "URL Sito Pubblicato",
-        h3_local: "Istruzioni per l'esecuzione e ricostruzione locale",
-        p_local_desc: "Non sono necessari package manager o build step complicati. Per testare o eseguire il progetto in locale:",
+        val_repo: "giulia-nebuloni/giulia-nebuloni.github.io",
+        more_title: "Altri progetti AI",
+        more_p: "In arrivo: qui verranno aggiunti i prossimi progetti realizzati con agenti AI.",
         footer_hosted: "Sito statico sviluppato con Google Antigravity &bull; GitHub Pages"
       },
       en: {
@@ -158,27 +148,28 @@ open index.html</code></pre>
         nav_volunteering: "Volunteering",
         nav_ai: "AI Projects",
         btn_cv: "CV (PDF)",
+        cv_href: "assets/docs/cv-en.pdf",
+        cv_filename: "Giulia_Nebuloni_CV_EN.pdf",
         btn_cv_ai: "AI-Optimized CV",
         cv_ai_href: "assets/docs/cv-ai-en.pdf",
-        cv_ai_filename: "Giulia_Nebuloni_CV_AI_ENG.pdf",
+        cv_ai_filename: "Giulia_Nebuloni_CV_AI_EN.pdf",
         ai_page_title: "Artificial Intelligence Projects",
         ai_page_subtitle: "Technical transparency, AI-assisted development methodologies, and project documentation for the portfolio.",
         proj_title: "Bilingual Personal Portfolio & Website",
         proj_role: "AI-assisted engineering with Google Antigravity",
-        proj_p1: "This portfolio was engineered as a concrete demonstration of human-AI collaboration. It presents insurance claims experience, Prague international roles, and volunteering through a clean, ultra-fast, bilingual static architecture with zero external dependencies.",
-        label_objective: "Objective",
-        val_objective: "Deliver a fast, accessible, and easily maintainable bilingual (IT/EN) portfolio hosted on GitHub Pages with zero running costs.",
-        label_arch: "Architecture & Tech Stack",
-        val_arch: "Semantic HTML5, modular responsive CSS3, vanilla JavaScript for instantaneous client-side localization, Git for version control.",
-        label_env: "Development Environment",
-        label_model: "AI Model Used during Development",
-        val_model: "Gemini 3.8 Flash (utilized for PDF CV analysis, bilingual content extraction, frontend code authoring, and consistency auditing).",
-        label_prod_ai: "Production AI Models",
-        val_prod_ai: "<strong>None:</strong> The live site is a pure static web application. Artificial intelligence was utilized strictly as an engineering and development assistant during design and coding.",
+        proj_p1: "This website was built, and is maintained, with artificial intelligence: content, translations and code all come from working with AI agents. The model used is mostly Gemini 3.8 Flash, inside Google Antigravity; other models may be used in the future.",
+        label_env: "Development environment",
+        val_env: "Google Antigravity (AI-first IDE with agents)",
+        label_model: "AI model",
+        val_model: "Gemini 3.8 Flash (mostly); other models in the future.",
+        label_ai_use: "What is done with AI",
+        val_ai_use: "Creating and updating content, IT/EN translation, writing the code, consistency checks. The AI-optimized CV is also generated with Gemini in Antigravity, from a LaTeX template.",
+        label_tech: "Technology",
+        val_tech: "Plain HTML, CSS and JavaScript, published on GitHub Pages.",
         label_repo: "GitHub Repository",
-        label_live: "Published Site URL",
-        h3_local: "Local Execution & Reproduction Guide",
-        p_local_desc: "No package managers or complex build steps required. To run or test the project locally:",
+        val_repo: "giulia-nebuloni/giulia-nebuloni.github.io",
+        more_title: "More AI projects",
+        more_p: "Coming soon: the next projects built with AI agents will be added here.",
         footer_hosted: "Static website built with Google Antigravity &bull; GitHub Pages"
       }
     };
